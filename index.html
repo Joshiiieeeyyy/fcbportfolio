@@ -1,40 +1,86 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Joshiey Boy | Web Developer Portfolio</title>
-
-	<!-- Google fonts -->
-	<link rel="preconnect" href="https://fonts.googleapis.com">
-	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Roboto&display=swap" rel="stylesheet">
-	
-	<!-- Bootsrap CSS -->
-	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-	
-	<!-- Linking CSS -->
-	<link rel="stylesheet" href="./style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Responsive Card</title>
 </head>
 <body>
-	<!-- div & section creates a wrapper/container
-	for our layout -->
-	<!-- class is an attribute to name our div/ used to group and target multiple elements using same class-->
-	<div class="container-fluid">
-		<!-- id is attribute to name a tag uniquely/no 2 elements has same id -->
-		<section class="text-center mt-5" id="landing">
-			<h1>Full Stack Web Developer</h1>
-			<p>Hi! My Name is Josh and I love building
-				things from scratch.</p>
-			<!-- make the filename in all lowercase para ok pagdating sa deployment -->
-			<img src="./images/me.png" id="profile">
+    <header>
+        <h1 class="heading">Spidey Cards</h1>
+    </header>
 
-			<a href="mailto:akenohimajimenchan@gmail.com" class="btn btn-outline-danger btn-lg">Chat mo na ako!</a>
-		</section>
+    <div class="cards-container">
+        <div class="card">
+            <img src="image1.jpg " alt="">
+            <div class="card-content">
+                <h2>Spidey</h2>
+                <p class="text">Pew pew</p>
+                <p class="description">Spiderman's Logo.</p>
+                <a href="#" class="learn-more">Learn More</a>
+            </div>
+        </div>
 
-	</div>
+        <div class="card">
+            <img src="image2.jpg" alt="">
+            <div class="card-content">
+                <h2>Spidey Meow Mohawk</h2>
+                <p class="text">Spidey cat with a haircut of mohawk.</p>
+                <p class="description">wake me up inside (I can't wake up) wake me up inside (Save me) call my name and save me from the dark</p>
+                <a href="#" class="learn-more">Learn More</a>
+            </div>
+        </div>
 
-	<!-- Bootstrap JS -->
-	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+        <div class="card">
+            <img src="image3.jpg" alt="">
+            <div class="card-content">
+                <h2>Spidey Meow with a style</h2>
+                <p class="text">Spidey cat thrifter</p>
+                <p class="description">Meow meow kinaladkad ang QC sila may-ari neto</p>
+                <a href="#" class="learn-more">Learn More</a>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="image4.jpg" alt="">
+            <div class="card-content">
+                <h2>Spidey Meow Buffed</h2>
+                <p class="text">Apuchupuchu</p>
+                <p class="description">SObrang dami na ng kinain mo insan, mekus mekus na yan.</p>
+                <a href="#" class="learn-more">Learn More</a>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="image5.jpg" alt="">
+            <div class="card-content">
+                <h2>Spider Meow Stacy</h2>
+                <p class="text">Are you lost, Daddy Meow</p>
+                <p class="description">Gwenchana.</p>
+                <a href="#" class="learn-more">Learn More</a>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="image6.jpg" alt="">
+            <div class="card-content">
+                <h2>Spidey Genggeng</h2>
+                <p class="text">Genggeng 4 life</p>
+                <p class="description">Sasabit kahit na kabit.</p>
+                <a href="#" class="learn-more">Learn More</a>
+            </div>
+        </div>
+
+        <div class="additional-info">
+            <div class="close-button">Close</div>
+            <div class="info-content">
+                <h2>Additional Information</h2>
+                <p>This is the additional information that appears when you click "Learn More" on a card.</p>
+            </div>
+        </div>
+    </div>    
+
+    <script src="script.js"></script>
 </body>
 </html>
