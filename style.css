@@ -92,7 +92,7 @@ section {
     display: flex;
     align-items: center;
     padding: 0 9%;
-    background: url(/Piksyur/white.png) no-repeat;
+    background: url(white.png) no-repeat;
     background-size: cover;
     background-position: center;
 }
@@ -131,7 +131,7 @@ section {
 }
 
 .home.show-animate .home-content .text-animate h3 {
-    animation: homeBgText 5s linear infinite;
+    animation: homeBgText 6s linear infinite;
     animation-delay: 2s;
 }
 
