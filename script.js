@@ -44,10 +44,6 @@ window.addEventListener('scroll', updateActiveSection);
 // Initial call to set the active section
 updateActiveSection();
 
-// ... (other code)
-
-
-
 joshiiieeeyyyElement.addEventListener('click', function (event) {
     event.preventDefault();
 });
@@ -90,10 +86,4 @@ window.onscroll = () => {
     // remove toggle icon and navbar when click navbar links (scroll)
     menuIcon.classList.remove('bx-x');
     navbar.classList.remove('active');
-    
-    // aniimation footer on scroll
-    let footer = document.querySelector('footer');
-
-    footer.classList.toggle('show-animate', this.innerHeight + this.scrollY >= document.scrollingElement.
-    scrollHeight);
 }
